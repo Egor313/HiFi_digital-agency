@@ -1,0 +1,33 @@
+html, body {
+    scroll-behavior: smooth;    
+    // background: var(--warna-back);
+    background: $warna-back;
+}
+
+  
+body {
+    font-family: 'Gordita-Regual';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    min-height: 100vh;
+    color: #000;       
+}
+
+.container {
+    padding: 0 30px;
+    
+    @media (min-width: $breakpoint-md) {
+        max-width: 708px;
+        margin: 0 auto;
+    }
+    @media (min-width: $breakpoint-lg) {
+        max-width: 964px;
+    }
+    @media (min-width: $breakpoint-xl) {
+        max-width: 1380px;
+    }
+    @media (min-width: $breakpoint-xxl) {
+        max-width: 1660px;
+    }
+    }
